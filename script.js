@@ -1,0 +1,72 @@
+$('#q1').click(function(){
+    $("#a1").toggleClass("fader");
+    $("#a2").addClass("fader");
+    $("#a3").addClass("fader");
+    $("#a4").addClass("fader");
+    $("#a5").addClass("fader");
+    $("#a6").addClass("fader");
+});
+$('#a1').click(function(){
+    $("#a1").toggleClass("fader");
+});
+
+$('#q2').click(function(){
+    $("#a2").toggleClass("fader");
+    $("#a1").addClass("fader");
+    $("#a3").addClass("fader");
+    $("#a4").addClass("fader");
+    $("#a5").addClass("fader");
+    $("#a6").addClass("fader");
+});
+$('#a2').click(function(){
+    $("#a2").toggleClass("fader");
+});
+
+$('#q3').click(function(){
+    $("#a3").toggleClass("fader");
+    $("#a1").addClass("fader");
+    $("#a2").addClass("fader");
+    $("#a4").addClass("fader");
+    $("#a5").addClass("fader");
+    $("#a6").addClass("fader");
+});
+$('#a3').click(function(){
+    $("#a3").toggleClass("fader");
+});
+
+$('#q4').click(function(){
+    $("#a4").toggleClass("fader");
+    $("#a1").addClass("fader");
+    $("#a2").addClass("fader");
+    $("#a3").addClass("fader");
+    $("#a5").addClass("fader");
+    $("#a6").addClass("fader");
+});
+$('#a4').click(function(){
+    $("#a4").toggleClass("fader");
+});
+
+$('#q5').click(function(){
+    $("#a5").toggleClass("fader");
+    $("#a1").addClass("fader");
+    $("#a2").addClass("fader");
+    $("#a3").addClass("fader");
+    $("#a4").addClass("fader");
+    $("#a6").addClass("fader");
+});
+$('#a5').click(function(){
+    $("#a5").toggleClass("fader");
+});
+
+$('#q6').click(function(){
+    $("#a6").toggleClass("fader");
+    $("#a1").addClass("fader");
+    $("#a2").addClass("fader");
+    $("#a3").addClass("fader");
+    $("#a4").addClass("fader");
+    $("#a5").addClass("fader");
+});
+$('#a6').click(function(){
+    $("#a6").toggleClass("fader");
+});
+

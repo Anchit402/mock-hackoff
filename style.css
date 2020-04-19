@@ -1,0 +1,726 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+}
+title {
+    display: none;
+}
+#navbar {
+    margin-left: 2.3%;
+    margin-top: 2.5%;
+    height: 96px;
+    margin-bottom: 50px;
+}
+#navbar img {
+    float: left;
+    height: 96px;
+    width: 100px;
+}
+#navbar #nav-links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
+#navbar #nav-links ul li{
+    list-style: none;
+    padding: 20px 20px;
+}
+#navbar #nav-links ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: white;
+}
+#two {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#two img {
+    height: 400px;
+    width: 400px;
+}
+#two #heading h1{
+    font-size: 50px;
+}
+#two #heading h1:nth-child(even) {
+    margin-bottom: 20px;
+}
+#two #heading h2:nth-child(3n+2) {
+    margin-bottom: 20px;
+}
+#two #heading button {
+    height: 41px;               
+    width: 221px;
+    background-color: #54b9e1;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+#three {
+    height: auto;
+}
+#three img {
+    width: 100%;
+    height: auto;
+    margin-bottom: -10px;  
+}
+#welcome {
+    display: flex;
+    background-color: #273059;
+    color: white;
+    width: 100%;
+}
+#welcome hr {
+    width: 15%;
+    height: 5px;
+    border: 2px solid #54b9e1;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#welcome #heading1 {
+    padding-top: 40px;
+    margin-left: 200px;
+    /* width: 40%; */
+}
+#welcome #heading1 p {
+    width: 75%;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#welcome #heading1 h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#welcome #heading1 button {
+    height: 40px;
+    width: 158px;   
+    background-color: #54b9e1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 20px;
+}
+#welcome img {
+    height: 340px;
+    width: 475px;
+    padding-top: 50px;
+}
+#speakers {
+    margin-top: 40px;
+}
+#speakers #heading2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#speakers #heading2 h1 {
+    padding-bottom: 20px;
+}
+#speakers #heading2 hr {
+    border: 2px solid #54b9e1;
+    border-radius: 5px;
+    width: 10%;
+    margin-bottom: 20px;
+}
+#speakers #info{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-areas: "a b c"
+                        "d e f"
+                        "g h i";
+    justify-content: space-around;
+    align-items: center;
+}
+#speakers img {
+    width: 100%;
+}
+#speakers #info #a {
+    grid-area: a;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+}
+#speakers #info #b {
+    grid-area: b;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+#speakers #info #c {
+    grid-area: c;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+}
+#speakers #info #d {
+    grid-area: d;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+}
+#speakers #info #e {
+    grid-area: e;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+}
+#speakers #info #f {
+    grid-area: f;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+}
+#speakers #info #g {
+    grid-area: g;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+}
+#speakers #info #h {
+    grid-area: h;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+}
+#speakers #info #i {
+    grid-area: i;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+}
+#wave img {
+    width: 100%;
+}
+#tracks {
+    background-color: #54b9e1;
+    margin-top: -4px
+}
+#tracks h1 {
+    font-size: 30px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+#tracks hr {
+    border: 2px solid #54b9e1;
+    width: 20%;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+
+#tracks #information #in {
+    display: flex;
+    flex-direction: column;
+    grid-area: box1;
+    border: 2px solid white;
+    border-radius: 5%;
+    padding: 20px;
+    background-color: white;
+    min-height: 300px;
+    margin-bottom: 20px;
+}
+#tracks #information #in #hpi {
+    display: flex;
+}
+#tracks #information #in #hpi img{
+    height: 60px;
+    width: 60px;
+}
+
+#tracks #information #in #hpi h1{
+    margin: 0;
+}
+
+#tracks #information #iot {
+    display: flex;
+    flex-direction: column;
+    grid-area: box2;
+    border: 2px solid white;
+    border-radius: 5%;
+    padding: 20px;
+    background-color: white;
+    min-height: 300px;
+    margin-bottom: 20px;
+}
+#tracks #information #iot #hiot {
+    display: flex;
+    justify-content: space-between;
+
+}
+#tracks #information #iot #hiot img{
+    height: 60px;
+    width: 60px;
+}
+#tracks #information #iot #hiot h1{
+    margin: 0;
+}
+
+
+#tracks #information #robo {
+    display: flex;
+    flex-direction: column;
+    grid-area: box3;
+    border: 2px solid white;
+    border-radius: 5%;
+    padding: 20px;
+    background-color: white;
+    min-height: 300px;
+    margin-bottom: 20px;
+}
+#tracks #information #robo #hrobo {
+    display: flex;
+    justify-content: space-between;
+}
+#tracks #information #robo #hrobo img{
+    height: 60px;
+    width: 60px;
+}
+#tracks #information #robo #hrobo h1{
+    margin: 0;
+}
+
+#tracks #information #bc {
+    display: flex;
+    flex-direction: column;
+    grid-area: box4;
+    border: 2px solid white;
+    border-radius: 5%;
+    padding: 20px;
+    background-color: white;
+    min-height: 300px;
+    margin-bottom: 20px;
+}
+#tracks #information #bc #hbc {
+    display: flex;
+    justify-content: space-between;
+}
+#tracks #information #bc #hbc img{
+    height: 60px;
+    width: 60px;
+}
+#tracks #information #bc #hbc h1{
+    margin: 0;
+}
+
+#tracks #information #ar {
+    display: flex;
+    flex-direction: column;
+    grid-area: box5;
+    border: 2px solid white;
+    border-radius: 5%;
+    padding: 20px;
+    background-color: white;
+    min-height: 300px;
+    margin-bottom: 20px;
+}
+#tracks #information #ar #har {
+    display: flex;
+    justify-content: space-between;
+}
+#tracks #information #ar #har img{
+    height: 60px;
+    width: 60px;
+}
+#tracks #information #ar #har h1{
+    margin: 0;
+}
+
+#tracks #information #oi {
+    display: flex;
+    flex-direction: column;
+    grid-area: box6;
+    border: 2px solid white;
+    border-radius: 5%;
+    padding: 20px;
+    background-color: white;
+    min-height: 300px;
+    margin-bottom: 20px;
+}
+#tracks #information #oi #hoi {
+    display: flex;
+    justify-content: space-between;
+}
+#tracks #information #oi #hoi img{
+    height: 60px;
+    width: 60px;
+}
+#tracks #information #oi #hoi h1{
+    margin: 0;
+}
+
+
+#tracks #information {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-areas: "box1 box2 box3"
+                        "box4 box5 box6";
+    justify-content: space-around;
+    align-items: center;    
+}
+#head h1 {
+    text-align: center;
+    font-size: 30px;
+}
+#head hr {
+    margin: 10px auto;
+    width: 10%;
+    border: 2px solid #54b9e1
+}
+#sponsors img {
+    border: 2px solid lightgrey;
+    height: 180px;
+    width: 280px;
+}
+#sponsors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#faqhead {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+#faqhead hr {
+    width: 10%;
+    margin: 50px auto;
+    border: 2px solid #54b9e1
+}
+#faq #ques {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 500px;
+    cursor: pointer;
+}
+#faq {
+    background-color: #273059;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#faq #ques #q1, #q2, #q3, #q4, #q5, #q6 {
+    padding-bottom: 20px;
+    font-weight: bold;
+    
+}
+#faq #ques #a1, #a2, #a3, #a4, #a5, #a6 {
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+.fader {
+    display: none;
+}
+
+script {
+    display: none;
+}
+@media only screen and (max-width: 1244px) {
+    #tracks #information {
+        display: grid;
+        grid-template-columns: 400px 400px;
+        grid-template-areas: "box1 box2"
+                            "box3 box4"
+                            "box5 box6";
+        justify-content: space-around;
+        align-items: center;    
+    }
+}
+@media only screen and (max-width: 1036px) {
+    #speakers #info{
+        display: grid;
+        grid-template-columns: repeat(2, 300px);
+        grid-template-areas: "a b"
+                            "c d"
+                            "e f"
+                            "g h"
+                            ".i";
+        justify-content: space-around;
+        align-items: center;
+    }
+    #welcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #navbar #logo{
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 812px) {
+    #tracks #information {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-areas: "box1 box2"
+                            "box3 box4"
+                            "box5 box6";
+        justify-content: space-around;
+        align-items: center;    
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #navbar #nav-links ul {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 675px) {
+    #two {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #two img {
+        height: 200px;
+        width: 200px;
+        margin-top: 100px;
+    }
+}
+@media only screen and (max-width: 636px) {
+    #tracks #information {
+        display: grid;
+        grid-template-columns: 200px 200px;
+        grid-template-areas: "box1 box2"
+                            "box3 box4"
+                            "box5 box6";
+        justify-content: space-around;
+        align-items: center;    
+    }
+    #tracks #information #in #hpi, #hoi, #hiot, #hrobo, #har, #hbc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #speakers #info{
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        grid-template-areas: "a b"
+                            "c d"
+                            "e f"
+                            "g h"
+                            ".i";
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    #faq #ques {
+        width: 300px;
+    }
+    #welcome #heading1 {
+        margin-left: 50px;
+        width: 100%;
+    }
+    #two #heading h1, h2{
+        text-align: center;
+        font-size: 35px;
+    }
+    #two #heading h2 {
+        font-size: 25px;;
+    }
+    #two #heading button {
+        align-items: center;
+    }
+    #speakers #info #a h2{
+        font-size: 20px;        
+    }
+    #speakers #info #a h3{
+        font-size: 15px;   
+        margin-top: 10px;
+        font-weight: 100;     
+    }
+
+
+    #speakers #info #b h2{
+        font-size: 20px;        
+    }
+    #speakers #info #b h3{
+        font-size: 15px;   
+        margin-top: 10px;
+        font-weight: 100;     
+    }
+
+    #speakers #info #c h2{
+        font-size: 20px;        
+    }
+    #speakers #info #c h3{
+        font-size: 15px;   
+        margin-top: 10px;
+        font-weight: 100;     
+    }
+
+    #speakers #info #d h2{
+        font-size: 20px;        
+    }
+    #speakers #info #d h3{
+        font-size: 15px;   
+        margin-top: 10px;
+        font-weight: 100;     
+    }
+
+    #speakers #info #e h2{
+        font-size: 20px;        
+    }
+    #speakers #info #e h3{
+        font-size: 15px;   
+        margin-top: 10px;
+        font-weight: 100;     
+    }
+
+    #speakers #info #f h2{
+        font-size: 20px;        
+    }
+    #speakers #info #f h3{
+        font-size: 15px;   
+        margin-top: 10px;
+        font-weight: 100;     
+    }
+
+
+    #speakers #info #g h2{
+        font-size: 20px;        
+    }
+    #speakers #info #g h3{
+        font-size: 15px;   
+        margin-top: 10px;
+        font-weight: 100;     
+    }
+
+    #speakers #info #h h2{
+        font-size: 20px;        
+    }
+    #speakers #info #h h3{
+        font-size: 15px;   
+        margin-top: 10px;
+        font-weight: 100;     
+    }
+
+    #speakers #info #i h2{
+        font-size: 20px;        
+    }
+    #speakers #info #i h3{
+        font-size: 15px;   
+        margin-top: 10px;
+        font-weight: 100;     
+    }
+}
+
+@media only screen and (max-width: 559px) {
+    #welcome #heading1 {
+        padding-top: 40px;
+        margin-left: 0px;
+        /* width: 40%; */
+    }
+}
+@media only screen and (max-width: 458px) {
+    #speakers #info{
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-areas: "a"
+                            "b"
+                            "c"
+                            "d"
+                            "e"
+                            "f"
+                            "g"
+                            "h"
+                            "i";
+        justify-content: center;
+        align-items: center;
+    }
+    #tracks #information {
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-areas: "box1"
+                            "box2"
+                            "box3"
+                            "box4"
+                            "box5"
+                            "box6";
+        justify-content: center;
+        align-items: center;    
+    }
+    #welcome img {
+        height: 340px;
+        width: 300px;
+        padding-top: 50px;
+    }
+    #two #heading button {
+        margin: 0 auto;
+    }       
+    #heading1 h1 {
+        text-align: center;
+    }
+    #welcome hr {
+        margin: 0 auto;
+    }
+    #welcome #heading1 p {
+        text-align: center;
+        width: 100%;
+    }
+    #welcome #heading1 button {
+        margin: 0 auto;
+    }
+}
+
